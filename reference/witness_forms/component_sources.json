@@ -1,0 +1,27 @@
+{
+  "history_guard.py": {
+    "source": "_remote_edit/qwen_no_witness_historyfix122/nw_adapter.py",
+    "source_sha256": "fedaf0c345261c6b6838485537756f4876d1d8c3ad3ee3cee42574f60f411dc1",
+    "extracted_symbol_sha256": {
+      "Decision": "fe00f23ce02ea013661726cb5ef5f4897f98113794c8de0367c79448f94b6fe5",
+      "history": "dc6243d9b38f5a2bdf165a6be70a5796e1046dceb4b7d52437fd4b9b3912dd5a",
+      "payload": "021287d9ce0a1ddc5bbbc5ddd9c755da0307e86954c686743507c29f99fb8438",
+      "validate_root": "b6d6f832eb29f044020421382065ab71b05b8a2ca2616e310ef27ca6843d2fcd",
+      "FrameAgent": "4b28cdb2bc58ec2cb5168f1e1284abc29105388735b0e37c4d9189848999e30c",
+      "GuardExecutor": "043ebca7e1d9d24c056651565584c8e64aa15ab51736e9f2aa7edbef28c11a04"
+    },
+    "adaptation": "Portable imports and caller-bound stopped callback only; method bodies unchanged"
+  },
+  "reasoning_guard.py": {
+    "source": "_remote_edit/qwen_reasoning122/nw_adapter.py",
+    "source_sha256": "ca36a989040aacbdad815018ae550173e5d775bf4ab84338b9f1eb63eb4c4f3f",
+    "extracted_symbol_sha256": {
+      "Decision": "30647ef9255af62fe38db9a571c75b7c9e34cdcdd31605c46f22366ab8561e73",
+      "reasoning_context": "a4ce30dc299836457216febf0ceb3320c131617d0657fc4d5b1f366c59755f9e",
+      "payload": "6c379ea7930722f8fca0970a19611586e502fdb34138dfaa2dd7ee8f190362b9",
+      "FrameAgent": "32f81579b9e47e092db6aa5dba19c2a8a0f50c3aa3f5135e1b239db6d8f4bae8",
+      "GuardExecutor": "983d8d555077ef507fefc2fd5051f50395be8d8b6256d230f7bed4bcbf53bb96"
+    },
+    "adaptation": "Portable imports and caller-bound stopped callback only; method bodies unchanged"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "repo": "Greysahy/ipiguard",
+  "sha": "4e686ed2f62c135cb12564a4466daa95f3ace878",
+  "date": "2025-09-16T09:26:55Z",
+  "files": [
+    {
+      "file": "outputs/ipiguard-official-comparison-20261014/official/agent_pipeline.py",
+      "sha256": "887a03cfef4b05cad6ea96e89ca7e40caec959591ca8c98f6c2a132fc5808097",
+      "url": "https://raw.githubusercontent.com/Greysahy/ipiguard/4e686ed2f62c135cb12564a4466daa95f3ace878/agentdojo/src/agentdojo/agent_pipeline/agent_pipeline.py"
+    },
+    {
+      "file": "outputs/ipiguard-official-comparison-20261014/official/llms/ipiguard_llm.py",
+      "sha256": "6746200c74454aaeae52378068bbd6d74bfde1b1d2faa2a3e7860eba49673ea0",
+      "url": "https://raw.githubusercontent.com/Greysahy/ipiguard/4e686ed2f62c135cb12564a4466daa95f3ace878/agentdojo/src/agentdojo/agent_pipeline/llms/ipiguard_llm.py"
+    },
+    {
+      "file": "outputs/ipiguard-official-comparison-20261014/official/llms/openai_llm.py",
+      "sha256": "bd0f58f4270e217b3630de968a79d9b6e9fada619775e706aa8e11425990eccb",
+      "url": "https://raw.githubusercontent.com/Greysahy/ipiguard/4e686ed2f62c135cb12564a4466daa95f3ace878/agentdojo/src/agentdojo/agent_pipeline/llms/openai_llm.py"
+    },
+    {
+      "file": "outputs/ipiguard-official-comparison-20261014/official/pi_detector.py",
+      "sha256": "f97ea0c8caccac47daee6135b8a1a6b7ac910481266ce78d499e8d6ebc1cce96",
+      "url": "https://raw.githubusercontent.com/Greysahy/ipiguard/4e686ed2f62c135cb12564a4466daa95f3ace878/agentdojo/src/agentdojo/agent_pipeline/pi_detector.py"
+    },
+    {
+      "file": "outputs/ipiguard-official-comparison-20261014/official/tool_execution.py",
+      "sha256": "329eecab4252e733b4ad42aa0f6205ad95c30ee2a16a2ef2d557689debc6c83d",
+      "url": "https://raw.githubusercontent.com/Greysahy/ipiguard/4e686ed2f62c135cb12564a4466daa95f3ace878/agentdojo/src/agentdojo/agent_pipeline/tool_execution.py"
+    },
+    {
+      "file": "outputs/ipiguard-official-comparison-20261014/official/agentdojo/src/agentdojo/default_suites/v1/tools/tool_white_list.py",
+      "sha256": "3d7a5005870db5aff2b081f3b6f678d7ee737a881a8c5aec59d18266f8d87af6",
+      "url": "https://raw.githubusercontent.com/Greysahy/ipiguard/4e686ed2f62c135cb12564a4466daa95f3ace878/agentdojo/src/agentdojo/default_suites/v1/tools/tool_white_list.py"
+    }
+  ]
+}
