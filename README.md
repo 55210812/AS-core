@@ -1,6 +1,6 @@
 # AS-core
 
-Gemini 与 Qwen 的 Agent 防御方法源码库，基于 [AS-all v0.4.0](https://github.com/55210812/AS-all/tree/f30245d4c4e8b73c03a45b637a4242bd199b3d11) 整理。
+Gemini 与 Qwen 的 Agent 防御方法源码库。
 
 保留方法实现、Prompt、Witness Schema、模型协议、工具执行器、AgentDojo 模拟环境与评分器，以及冻结任务、Frame 和攻击输入。仓库通过 Python API 构建单个方法；批量实验的一键启动、安装器、调度、监控和 Git 反馈上传由调用方管理。
 
@@ -36,7 +36,7 @@ source .venv/bin/activate
 python -m pip install -e ./vendor/agentdojo -e ./vendor/core -e '.[dev]'
 ```
 
-保留源码目录并使用 editable 安装：方法会读取仓库内的 `reference/` 与 `data/`。`as_all` Python 导入名保持与来源源码一致，发行包名为 `as-core`。
+保留源码目录并使用 editable 安装：方法会读取仓库内的 `reference/` 与 `data/`。
 
 Injection Detection 使用固定 revision 的 DeBERTa 检测器，优先 CUDA、否则 CPU。首次构建该方法会按需下载权重，模型来源与固定版本见 [方法说明](docs/METHODS.md)。
 
@@ -89,7 +89,7 @@ print(cost(case_dir / "requests.jsonl"))
 - `reference/`：原方法源码、冻结 Prompt、官方行为对齐参考及差分测试。
 - `data/`：97 任务、简化 Frame、两提供商各自的两类 949 组合攻击输入。
 
-详细输入边界见 [方法说明](docs/METHODS.md)，来源和导出边界见 [来源说明](docs/SOURCE.md)，逐文件 SHA 见 `source_manifest.json`。
+详细输入边界见 [方法说明](docs/METHODS.md)，源码组成见 [源码说明](docs/SOURCE.md)，逐文件 SHA 见 `source_manifest.json`。
 
 ## 离线测试
 
